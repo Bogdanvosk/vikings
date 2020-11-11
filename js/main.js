@@ -1,5 +1,7 @@
 "use strict";
 
+new WOW().init();
+
 const navBtn = document.querySelector('.nav__btn');
 const navMenu = document.querySelector('.nav-menu');
 

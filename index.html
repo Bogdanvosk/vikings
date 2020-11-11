@@ -10,6 +10,7 @@
          rel="stylesheet"
          href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
       />
+      <link rel="stylesheet" href="css/animate.min.css" />
       <link rel="stylesheet" href="css/main.css" />
       <!-- Fonts -->
       <link
@@ -24,7 +25,7 @@
             <button class="nav__btn">
                <span></span>
             </button>
-            <ul class="nav-menu">
+            <ul class="nav-menu wow animate__animated animate__fadeInDown">
                <li class="nav-menu__item">
                   <a href="season-1.html" class="nav-menu__link">1 сезон</a>
                </li>
@@ -51,7 +52,10 @@
             </ul>
          </nav>
 
-         <div class="logo">
+         <div
+            class="logo wow animate__animated animate__fadeInDown"
+            data-wow-delay=".4s"
+         >
             <img src="img/logo.png" alt="Logo" class="logo__image" />
          </div>
       </header>
@@ -59,9 +63,16 @@
       <main>
          <section class="about section-page">
             <div class="container">
-               <h3 class="about__title title">О сериале</h3>
+               <h3
+                  class="about__title title wow animate__animated animate__fadeInDown"
+               >
+                  О сериале
+               </h3>
                <div class="about__inner">
-                  <ul class="about__info">
+                  <ul
+                     class="about__info wow animate__animated animate__fadeInDown"
+                     data-wow-delay=".2s"
+                  >
                      <li class="about__info-item">
                         Жанр <span>Историческая драма</span>
                      </li>
@@ -73,7 +84,10 @@
                         На экранах <span>С 3 марта 2013 по сей день</span>
                      </li>
                   </ul>
-                  <div class="about__text">
+                  <div
+                     class="about__text wow animate__animated animate__fadeInDown"
+                     data-wow-delay=".4s"
+                  >
                      <p>
                         Викинги – шикарный исторический сериал, один из лучших в
                         своем жанре, шоу может похвастаться огромной фан-базой,
@@ -118,41 +132,47 @@
 
          <section class="seasons section-page">
             <div class="container">
-               <h3 class="seasons__title title">Все сезоны</h3>
+               <h3 class="seasons__title title wow animate__animated animate__fadeInDown">Все сезоны</h3>
                <ol class="seasons__items">
                   <li
-                     class="seasons__item"
+                     class="seasons__item wow animate__animated animate__fadeInDown"
                      style="background-image: url('img/seasons/series1.jpg')"
+                     data-wow-delay=".2s"
                   >
                      <a href="season-1.html" class="seasons__link">Смотреть</a>
                   </li>
                   <li
-                     class="seasons__item"
+                     class="seasons__item wow animate__animated animate__fadeInDown"
                      style="background-image: url('img/seasons/series2.jpg')"
+                     data-wow-delay=".4s"
                   >
                      <a href="#" class="seasons__link">Смотреть</a>
                   </li>
                   <li
-                     class="seasons__item"
+                     class="seasons__item wow animate__animated animate__fadeInDown"
                      style="background-image: url('img/seasons/series3.jpg')"
+                     data-wow-delay=".6s"
                   >
                      <a href="#" class="seasons__link">Смотреть</a>
                   </li>
                   <li
-                     class="seasons__item"
+                     class="seasons__item wow animate__animated animate__fadeInDown"
                      style="background-image: url('img/seasons/series4.jpg')"
+                     data-wow-delay=".8s"
                   >
                      <a href="#" class="seasons__link">Смотреть</a>
                   </li>
                   <li
-                     class="seasons__item"
+                     class="seasons__item wow animate__animated animate__fadeInDown"
                      style="background-image: url('img/seasons/series5.jpg')"
+                     data-wow-delay="1s"
                   >
                      <a href="#" class="seasons__link">Смотреть</a>
                   </li>
                   <li
-                     class="seasons__item"
+                     class="seasons__item wow animate__animated animate__fadeInDown"
                      style="background-image: url('img/seasons/series6.jpg')"
+                     data-wow-delay="1.2s"
                   >
                      <a href="#" class="seasons__link">Смотреть</a>
                   </li>
@@ -162,14 +182,14 @@
 
          <section class="heroes section-page">
             <div class="container">
-               <h3 class="heroes__title title">Главные герои</h3>
-               <div class="heroes__inner">
+               <h3 class="heroes__title title wow animate__animated animate__fadeInDown">Главные герои</h3>
+               <div class="heroes__inner wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
                   <div class="heroes__slider">
                      <img src="img/hero/hero_1.jpg" alt="Slide" />
                      <img src="img/hero/hero_1.jpg" alt="Slide" />
                      <img src="img/hero/hero_1.jpg" alt="Slide" />
                   </div>
-                  <div class="heroes__info">
+                  <div class="heroes__info wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
                      <h4 class="heroes__info-title">Рагнар</h4>
                      <p class="heroes__info-text">
                         Рагна́р Лодбро́к (др.-сканд. Ragnarr Loðbrók) -
@@ -197,6 +217,7 @@
       </footer>
 
       <script src="js/jquery.min.js"></script>
+      <script src="js/wow.min.js"></script>
       <script src="js/slick.min.js"></script>
       <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
       <script src="js/main.js"></script>
